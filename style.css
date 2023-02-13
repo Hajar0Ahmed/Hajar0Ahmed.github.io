@@ -2,11 +2,8 @@ body {
 
     font-family: 'Inconsolata', monospace;
     background-color: rgba(202, 183, 160, 0.114);
-    
-}
-
-h1, p {
     color: rgb(87, 64, 64);
+    
 }
 
 #profile {
