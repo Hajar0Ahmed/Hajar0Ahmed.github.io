@@ -26,6 +26,10 @@ svg {
     margin-right: 3%;
 }
 
+a svg:hover {
+    fill: rgba(159, 96, 65, 0.811);
+}
+
 @media screen and (max-width: 765px) {
     .col-md-6 {
       text-align: center;
