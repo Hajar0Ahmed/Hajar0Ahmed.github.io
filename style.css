@@ -2,11 +2,8 @@ body {
 
     font-family: 'Inconsolata', monospace;
     background-color: rgba(202, 183, 160, 0.114);
-    
-}
-
-h1, p {
     color: rgb(87, 64, 64);
+    
 }
 
 #profile {
@@ -29,8 +26,30 @@ svg {
     margin-right: 3%;
 }
 
+a svg:hover {
+    fill: rgba(159, 96, 65, 0.811);
+}
+.card {
+    max-width: 28rem;
+    margin: 0% 0% 1% 2%;
+}
+
+.project_title {
+    margin-left: 2.5%;
+    margin-bottom: 2%;
+}
+
 @media screen and (max-width: 765px) {
     .col-md-6 {
       text-align: center;
+    }
+    .card {
+        min-width: 19rem;
+        margin: auto;
+        margin-top: 3%;
+    }
+    
+    .project_title {
+        text-align: center;
     }
   }
