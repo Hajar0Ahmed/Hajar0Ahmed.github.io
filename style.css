@@ -7,7 +7,8 @@ body {
 }
 
 #profile {
-    border-radius: 50%;
+    width: 250px;
+    border-radius: 25%;
     background-color: rgb(255, 255, 255);
     border: 2px solid rgba(146, 66, 26, 0.354);
     box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.1);
